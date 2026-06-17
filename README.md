@@ -22,3 +22,5 @@ Rather than replacing existing justice systems, SSPA Human Rights Ledger strengt
 
 ### Our vision is simple:
 No survivor should lose access to justice because their identity, testimony, or evidence was lost, altered, or forgotten.
+
+## Abstract:Traditional blockchain systems bind digital rights directly to temporary cryptographic wallets. If a victim's device is seized or destroyed by exploiters, their identity and resources are permanently lost. SSPA (Sovereign State Persistence Architecture) breaks this vulnerability by establishing an Identity-Anchored Asset model (PIN ──► PID ──► PIH). Inspired by the high-symmetry E8 lattice matrix, SSPA ensures that human rights automatically outlive devices, nodes, and software failures through self-healing state recovery and automated asset rebinding protocols.
