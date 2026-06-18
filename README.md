@@ -37,3 +37,6 @@ The result is a human-rights ledger where justice is no longer dependent on the 
 
 Pernyataan Penutup
 SSPA Human Rights Ledger memastikan bahwa identitas penyalintas, bukti forensik, dan catatan hukum tetap terlindungi dan dapat dicintai bahkan ketika perangkat, akun, atau dokumen hilang. Dengan menghubungkan identitas pada lapisan persistensi yang bertahan melampaui perangkat dan platform, SSPA membantu mengurangi kehilangan bukti,
+
+
+"The SSPA Human Rights Ledger ensures that survivor identities, forensic evidence, and legal records remain protected and recoverable even when devices, accounts, or documents are lost. By linking identities to a persistence layer that outlives devices and platforms, SSPA helps reduce evidence loss, strengthen accountability, and expand access to justice for victims of human trafficking and human rights violations worldwide."
