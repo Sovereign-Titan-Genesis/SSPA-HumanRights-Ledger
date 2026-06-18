@@ -34,3 +34,6 @@ SSPA (Sovereign State Persistence Architecture) introduces an Identity-Anchored 
 Inspired by principles of high-symmetry persistence architectures, SSPA provides self-healing state recovery, cryptographic evidence continuity, and automated asset rebinding mechanisms. This enables survivor identities, legal records, and human-rights evidence to remain accessible, verifiable, and protected even when underlying devices, nodes, or applications fail.
 
 The result is a human-rights ledger where justice is no longer dependent on the survival of a wallet, device, or platform—but on the persistence of identity itself.
+
+Pernyataan Penutup
+SSPA Human Rights Ledger memastikan bahwa identitas penyalintas, bukti forensik, dan catatan hukum tetap terlindungi dan dapat dicintai bahkan ketika perangkat, akun, atau dokumen hilang. Dengan menghubungkan identitas pada lapisan persistensi yang bertahan melampaui perangkat dan platform, SSPA membantu mengurangi kehilangan bukti,
