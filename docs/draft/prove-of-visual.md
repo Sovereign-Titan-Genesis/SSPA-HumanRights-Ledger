@@ -91,4 +91,4 @@ Resolusi 1280×720 atau lebih tinggi
 Ukuran < 5 MB per gambar
 
 
-Karena proyek SSPA Anda masih pada tahap konsep dan prototipe, saya sarankan membuat 5 screenshot profesional yang menceritakan alur lengkap proyek dari masalah → solusi → arsitektur → implementasi → dampak sosiKalaugkatkanatkan peluang penilaian Call for Code 2026, lengkap dengan isi setiap screenshot dan urutannya.
+Karena proyek SSPA ini masih pada tahap konsep dan prototipe, saya sarankan membuat 5 screenshot profesional yang menceritakan alur lengkap proyek dari masalah → solusi → arsitektur → implementasi → dampak sosiKalaugkatkanatkan peluang penilaian Call for Code 2026, lengkap dengan isi setiap screenshot dan urutannya.
