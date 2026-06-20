@@ -1,0 +1,142 @@
+================================================================================
+          SSPA HUMAN RIGHTS LEDGER - SOVEREIGN PROOF OF VALUE ($SPOV)
+                 TOKENOMICS & GENESIS LEDGER BLUEPRINT V1.0
+================================================================================
+Status Dokumen : FINAL STABLE / ARCHIVE-READY
+Tanggal Rilis  : 21 Juni 2026
+Referensi      : Call for Code 2026 Submission Page
+Target Jaringan: SSPA Sovereign Trust Infrastructure
+--------------------------------------------------------------------------------
+
+[CATATAN AMAN DAN AKSESIBILITAS]:
+Dokumen ini mereplikasi seluruh konten visual, arsitektur data genesis, dan model 
+distribusi ekosistem masa depan SSPA untuk keperluan pembaca layar (screen reader), 
+audit otomatis, serta salin-tempel kode bagi juri teknis.
+
+================================================================================
+1. SPESIFIKASI TOKEN & IDENTITAS KRIPTOGRAFIS
+================================================================================
+* Parameter: Nama Koin
+  - Spesifikasi Teknis: Sovereign Proof of Value
+  - Filosofi & Alasan: Menegaskan kedaulatan individu dan nilai kemanusiaan 
+    yang divalidasi oleh jaringan.
+
+* Parameter: Ticker / Simbol
+  - Spesifikasi Teknis: $SPOV
+  - Filosofi & Alasan: Ringkas, kuat, dan mudah dilacak dalam repositori 
+    maupun struktur ledger.
+
+* Parameter: Total Supply
+  - Spesifikasi Teknis: 1.000.000.000 $SPOV (1 Miliar Unit Tetap)
+  - Filosofi & Alasan: Jumlah ideal untuk mikro-insentif node, verifikasi data, 
+    dan pendanaan jangka panjang.
+
+* Parameter: Desimal
+  - Spesifikasi Teknis: 18 Desimal
+  - Filosofi & Alasan: Mengikuti standar native Ethereum/EVM untuk fleksibilitas 
+    pembagian unit terkecil (Wei-equivalent).
+
+* Parameter: Arsitektur
+  - Spesifikasi Teknis: Hybrid Proof-of-Value (PoV) / ERC-20 Compliant
+  - Filosofi & Alasan: Kompatibel dengan dompet digital modern berstandar industri 
+    (Termasuk arsitektur AKSA Wallet).
+
+================================================================================
+2. ALOKASI & DISTRIBUSI TRANSPARAN (GENESIS POOL)
+================================================================================
+[HIGHLIGHT METRIK KEBIJAKAN UTAMA UNTUK JURI HAM & INFRASTRUKTUR]:
+
+* 40% - Human Rights Grants & Community Pool (400.000.000 $SPOV)
+  - Dialokasikan khusus untuk mendanai inisiatif kemanusiaan lapangan, perlindungan 
+    korban, verifikasi data HAM, dan insentif kontributor eksternal.
+* 20% - Jaringan Node & Validasi Jaringan (200.000.000 $SPOV)
+  - Diperuntukkan sebagai reward bagi relawan, komunitas, atau institusi yang 
+    menjalankan node validator independen guna mengamankan data ledger.
+* 15% - Proof-of-Value (PoV) Treasury Heart Pool (150.000.000 $SPOV)
+  - Jantung ekonomi SSPA. Digunakan untuk penghargaan kontributor berbasis nilai nyata, 
+    bounty keamanan, riset ketahanan AI, dan manajemen bencana.
+* 15% - Pengembangan Tim Core & Suksesi Jangka Panjang (150.000.000 $SPOV)
+  - Dikunci dengan skema perlindungan anti-spekulasi (5-Year Vesting, 12-Month Cliff).
+* 10% - Cadangan Strategis & Aliansi Global (100.000.000 $SPOV)
+  - Dana darurat untuk integrasi teknologi masa depan (Bio-Computing & Satelit).
+
+================================================================================
+3. STRUKTUR DOKUMEN GENESIS (genesis.json v1.0)
+================================================================================
+[INFO AUDIT]: Seluruh nilai balance di bawah ini dikonversi ke satuan unit terkecil 
+(Wei: dikalikan 10^18). Alamat berawalan "0xSSPA_" adalah kustom biner placeholder 
+yang wajib diganti dengan alamat publik asli saat implementasi smart contract.
+
+{
+  "config": {
+    "chainId": 8080,
+    "chainName": "SSPA Human Rights Ledger Network",
+    "consensusMechanism": "Proof-of-Value (PoV)",
+    "currencySymbol": "SPOV",
+    "philosophy": "MUDA, KAYA, WANGI, BAIK HATI"
+  },
+  "declaration": {
+    "principle_1": "Identity is a human right",
+    "principle_2": "Evidence must survive device loss",
+    "principle_3": "Human dignity over speculation",
+    "principle_4": "Proof of Value before Proof of Wealth",
+    "principle_5": "No human shall become digitally invisible"
+  },
+  "genesis": {
+    "timestamp": "2026-06-21T01:34:00Z",
+    "nonce": "0x535350415f48554d414e5f5249474854535f4c4544474552",
+    "extraData": "SSPA Core Legacy - Ticket to Ride Civilization Scale Infrastructure",
+    "gasLimit": "0x1fffffffffffff",
+    "difficulty": "0x1"
+  },
+  "alloc": {
+    "0xSSPA_HUMAN_RIGHTS_COMMUNITY_POOL_PLACEHOLDER": { 
+      "balance": "350000000000000000000000000" 
+    },
+    "0xSSPA_VALIDATOR_NETWORK_REWARDS_PLACEHOLDER": { 
+      "balance": "200000000000000000000000000" 
+    },
+    "0xSSPA_CORE_DEV_VESTING_VAULT_PLACEHOLDER": { 
+      "balance": "150000000000000000000000000" 
+    },
+    "0xSSPA_POV_TREASURY_HEART_POOL_PLACEHOLDER": { 
+      "balance": "150000000000000000000000000" 
+    },
+    "0xSSPA_STRATEGIC_ALLIANCE_RESERVE_PLACEHOLDER": { 
+      "balance": "100000000000000000000000000" 
+    }
+  }
+}
+
+================================================================================
+4. STRATEGI IMPLEMENTASI & BUDAYA TATA KELOLA (INTERNAL GOVERNANCE)
+================================================================================
+* PUBLIKASIKAN MANIFESTO: Buat berkas MANIFESTO.md di repo GitHub untuk menjelaskan 
+  Internal Cultural Operating Principles (Muda, Kaya, Wangi, Baik Hati) agar setiap 
+  kontributor baru memahami DNA gerakan non-teknis proyek ini.
+* GITHUB COMMIT = PROOF-OF-VALUE: Setiap kontribusi kode, tinjauan, dan dokumentasi 
+  dihitung secara matematis sebagai validasi nilai fungsional (bukan kepemilikan modal) 
+  yang akan dikonversikan ke dalam insentif ekosistem saat testnet berjalan.
+* ABADI DI BLOCKCHAIN: Rekam jejak bukti digital dan kedaulatan identitas tidak dapat 
+  diintervensi sepihak, memastikan integritas data independen jangka panjang.
+
+================================================================================
+5. ROADMAP & MEKANISME KEBERLANJUTAN MASA DEPAN
+================================================================================
+* FASE 1 - KOMPETISI (SAAT INI): Fokus mutlak pada solusi kemanusiaan, perlindungan 
+  identitas penyintas, mitigasi kehilangan perangkat, dan pemenuhan target PBB SDG 16.
+* FASE 2 - INCUBATOR / KANDIDAT: Pengujian skema Proof-of-Value secara tertutup, 
+  on-boarding lembaga hukum/NGO internasional, dan pengaktifan Treasury tersimulasi.
+* FASE 3 - PASCA INKUBASI: Peluncuran testnet mandiri secara terdesentralisasi untuk 
+  menjamin kelangsungan operasional infrastruktur lintas dekade tanpa bergantung donasi.
+
+--------------------------------------------------------------------------------
+[FOOTNOTE LEGAL & ETIS - ETHICAL SAFEGUARDS]:
+(*) Konsep "Zero Erasure" dan "Immutability" pada SSPA diimplementasikan sebagai ketahanan 
+kriptografis dari manipulasi aktor jahat. Kontrol privasi mutlak tetap berada di tangan 
+penyintas melalui mekanisme "Cryptographic Shredding" (penghancuran kunci enkripsi data 
+lokal berdasarkan konsensus mandiri/hak untuk dilupakan yang sesuai dengan standar GDPR 
+dan perintah pengadilan kemanusiaan internasional).
+--------------------------------------------------------------------------------
+Human Dignity First. Resilient Technology for Humanity. Locked & Secured.
+================================================================================
