@@ -132,6 +132,6 @@ flowchart TD
 
 ------------------------------
 ## Ethical & Legal Safeguards Layer
-While structural data remains cryptographically immutable to thwart malicious erasure by adversaries, individual privacy control is strictly preserved [3.2]. If a survivor exercises their right to be forgotten (complying with international legal frameworks like GDPR), the system triggers Cryptographic Shredding on the user's specific access components [3.2]. This invalidates decryptability across all storage relays, rendering the payload unreadable random noise while maintaining the holistic structural integrity of the public chain logs [3.2].
+While structural data remains cryptographically immutable to thwart malicious erasure by adversaries, individual privacy control is strictly preserved [3.2]. If a survivor exercises their right to be forgotten (complying with international legal frameworks like GDPR), the system triggers Cryptographic Shredding on the user's specific access components [3.2]. This invalidates decryptability across all storage relays, rendering the payload unreadable random noise while maintaining the holistic structural integrity of the public chain logs [3.2]
 ------------------------------
 
