@@ -1,4 +1,4 @@
- **bukan apa sistemnya, tapi apaka **skrip demo judge-ready** yang bisa dipakai untuk:
+---
 
 * pitch video
 * live demo
