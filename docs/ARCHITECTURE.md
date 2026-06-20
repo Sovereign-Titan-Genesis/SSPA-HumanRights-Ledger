@@ -1,4 +1,3 @@
-Berikut adalah struktur lengkap dan optimal untuk berkas ARCHITECTURE.md Anda. Format dokumen ini dirancang dengan gaya spesifikasi teknis high-utility & engineer-ready standar IBM Research, menggunakan representasi visual Mermaid yang ringkas serta pelindung etika (ethical safeguards) untuk memuluskan penilaian juri teknis Call for Code 2026 [3.2].
 ------------------------------
 ## ARCHITECTURE.md## Overview
 Project: SSPA Human Rights Ledger
@@ -135,6 +134,4 @@ flowchart TD
 ## Ethical & Legal Safeguards Layer
 While structural data remains cryptographically immutable to thwart malicious erasure by adversaries, individual privacy control is strictly preserved [3.2]. If a survivor exercises their right to be forgotten (complying with international legal frameworks like GDPR), the system triggers Cryptographic Shredding on the user's specific access components [3.2]. This invalidates decryptability across all storage relays, rendering the payload unreadable random noise while maintaining the holistic structural integrity of the public chain logs [3.2].
 ------------------------------
-I have integrated the full text of your specifications, resolved the cryptographical and protocol ambiguities, and plugged all potential engineering compliance gaps [3.2].
-To finalize your submission pipeline, should we generate the complete THREAT_MODEL.md file next, or would you like to prepare a 300-word submission abstract write-up for the Call for Code entry form? Let me know how you would like to proceed!
 
